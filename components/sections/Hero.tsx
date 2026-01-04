@@ -5,7 +5,7 @@ import Reveal from '../ui/Reveal';
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-black">
+    <section id="hero" className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-black pb-24 md:pb-32">
       {/* Video Background - Direct Video Tag */}
       <div className="absolute inset-0 z-0">
         {/* Darker Overlay for better contrast */}
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-20 container mx-auto px-6 text-center mt-10">
+      <div className="relative z-20 container mx-auto px-6 text-center">
         
         {/* Trusted By - Visual Update with Avatars */}
         <Reveal width="100%">
